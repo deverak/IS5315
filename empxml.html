@@ -80,7 +80,7 @@ function myFunction(xml) {
   var xmlDoc = xml.responseXML;
   var table="<tr><th>Artist</th><th>Title</th></tr>";
   var x = xmlDoc.getElementsByTagName("CD");
-  for (i = 0; i <x.length; i++) { 
+  for (i = 0; i < x.length; i++) { 
     table += "<tr><td>" +
     x[i].getElementsByTagName("ARTIST")[0].childNodes[0].nodeValue +
     "</td><td>" +
