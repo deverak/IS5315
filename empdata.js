@@ -51,7 +51,7 @@
     {
       "first_name": "James",
       "last_name": "Dun",
-      "e-mail": "$jimmydun@aol.com",
+      "e-mail": "jimmydun@aol.com",
       "phone_number": "2738491726",
       "availability": "T/F",
       "hourly_rate": "$14/HR"
